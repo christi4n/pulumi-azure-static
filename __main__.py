@@ -5,7 +5,7 @@ from pulumi_azure_native import storage
 from pulumi_azure_native import resources
 
 # Add some constants
-PATH_TO_STATIC_FILE = "static/index.html"
+PATH_TO_STATIC_FILE = "index.html"
 CONTENT_TYPE="text/html"
 
 # Create an Azure Resource Group - it begins with 'rg_plmi_'
